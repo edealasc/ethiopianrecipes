@@ -1,12 +1,20 @@
-# Ethiopian Recipe API
+# Ethiopian Recipe API 
 
 This Flask API provides a management system for Ethiopian food recipes. It allows users to view, search, and retrieve recipes using JSON data.
+
+## Project Link
+
+- **Project hosted on Render**: [https://ethiopianrecipesapi.onrender.com](https://ethiopianrecipesapi.onrender.com)
 
 ## Features
 
 - View all recipes: `/recipes`
 - Get a specific recipe by ID: `/recipe/<int:recipe_id>`
 - Search recipes by title, ingredients, or instructions: `/recipes/<string:search_query>`
+
+## Data Source
+
+The data for this project was taken from the book *Ethiopian Cookbook: Authentic Recipes from Ethiopia, Africa* by Laura Sommers.
 
 ## Installation
 
